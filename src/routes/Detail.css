@@ -1,0 +1,40 @@
+.detail__container{
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+      0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 800px;
+    font-weight: 300;
+  
+    text-align: center;
+  }
+  
+  .movie__tit_detail{
+      font-family: "Arial Black", sans-serif;
+      font-size: 35px;
+      font-weight: bold;
+      background-color: #666666;
+      color: #222222;
+      text-shadow: 4px 2px 3px rgba(255,255,255,0.2);
+      height: 45px;
+  
+  }
+  
+  .movie__gen_detail{
+      margin-right: 20px;
+      display: inline;
+      font-size: 20px;
+      
+  
+  }
+  
+  .movie__sum_detail {
+      margin-top: 20px;
+      font-size: 15px;
+      color: gray;
+  }
+  
