@@ -9,7 +9,7 @@ function Movie( {id, title,year,summary, medium_cover_image, genres} ){
             <Link to={ {pathname:'/movie-detail', state:{id, year, title, summary, medium_cover_image, genres} } } >
                 <img src={medium_cover_image} alt={title} title={title}/>
                 <div className="movie__data">
-                    <h3 className="movie__title"  >{title}</h3>
+                    <h3 className="movie__title">{title}</h3>
                     <h5 className="movie__year">{year}</h5>
                     <ul className="movie__genres"> 
                     {genres.map((item,index)=>{ return <li key={index}   
