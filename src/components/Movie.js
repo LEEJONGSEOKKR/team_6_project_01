@@ -3,7 +3,7 @@ import './Movie.css';
 import {Link} from 'react-router-dom';
 
 function Movie( {id, title,year,summary, medium_cover_image, genres} ){
-    //console.log(genres);  
+    //console.log(title);  
     return (
         <div className="movie">
             <Link to={ {pathname:'/movie-detail', state:{id, year, title, summary, medium_cover_image, genres} } } >
